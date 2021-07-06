@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GYM web </title>
+</head>
+<link rel="stylesheet" href="css/">
+<style>
+    /* CSS Reset */
+    
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(/Screenshot\ 2021-07-04\ 165100.png);
+       color: white;
+
+
+    }
+
+    .left{
+       
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: -17px;
+        text-align: center;
+        color: white;
+        
+       
+    }.left:hover{
+       color: greenyellow;
+       display: inline-block;
+       position: absolute;
+       left: 34px;
+       top: -17px;
+       text-align: center;
+       
+      
+   }
+    
+    .left img{
+        width: 126px;
+        filter: invert();
+
+    }
+    .left img:hover{
+        width: 128px;
+        filter: none
+    }
+    .mid{
+        
+        display: block;
+        width: 45%;
+     
+        margin: 20px auto;
+        border-left: 6px solid greenyellow;
+        height: 250px;
+        
+        
+
+    }
+    .right{
+        border: 2px solid yellow;
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+       
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 23px;
+        background-size: 5px 8px 5px 8px;
+    }
+    .navbar li a{
+        color: black;
+        text-decoration: none;
+        padding: 14px 13px;
+        background-color: honeydew;
+        border-radius: 29px;
+        
+        
+        
+    }
+    .navbar li a:hover , .navbar li a.active{
+        color: gray;
+       
+        text-decoration: none;
+        
+        background-color: greenyellow;
+        border: hotpink;
+        border-radius: 54px;
+        
+    }
+    div.box,.box1,.box2,.box3{
+        border: 3px solid greenyellow;
+        display: inline-block;
+        padding: 14px 13px;
+    }
+    div.box{
+        border-right: 5px;
+        overflow: visible;
+    }
+   
+
+    
+
+
+
+</style>
+
+<body>
+    
+    <header class="header">
+        <div class="left">
+<img src="/dumbbell.png" alt="">
+<div>Fitness web</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+               <div class="box"> <li><a href="#" class="active">home</a></li></div>
+               <div class="box1"><li><a href="#">about us</a></li></div>
+               <div class="box2"><li><a href="#">fitness calculator</a></li></div>
+               <div class="box3"><li><a href="#">contact us</a></li></div>
+            </ul>
+        </div>
+        <div class="right">
+            I am right
+        </div>
+        
+    </header>
+</body>
+</html>
